@@ -6,4 +6,3 @@
 * Custom Directives
 * Services
 
-page view - http://romanhristofor.github.io/shop-with-angularjs/
