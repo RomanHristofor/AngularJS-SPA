@@ -1,4 +1,4 @@
-# This application uses the following features:
+# This application uses the following features Angular.js:
 
 
 * Built-in Directives
