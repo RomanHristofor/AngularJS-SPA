@@ -8,7 +8,6 @@
     $http.get('/store-products.json').success(function(data){
         store.products = data;
     });
-    
   }]);
 
   app.controller('ReviewController', function() {

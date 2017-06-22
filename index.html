@@ -39,6 +39,45 @@
 
       </div>
     </div>
+  <script>
+    "use strict";
 
+    var user = {
+        login: 'Василий',
+        _age: 33,
+        get age() {
+            return this._age;
+        },
+        set age(arg) {
+            this._age = typeof arg === 'number' ? arg : this._age;
+        }
+    };
+    user.age = 'hello';
+    console.log(user.age);
+    user.age = 44;
+    console.log(user.age);
+
+    // function ask(question, answer, ok, fail) {
+    //   var result = prompt(question, '');
+    //   if (result.toLowerCase() == answer.toLowerCase())
+    //     ok();
+    //   else fail();
+    // }
+
+    // var user = {
+    //   login: 'Василий',
+    //   password: '12345',
+
+    //   // метод для вызова из ask
+    //   loginDone: function(result) {
+    //     alert( this.login + (result ? ' вошёл в сайт' : ' ошибка входа') );
+    //   },
+
+    //   checkPassword: function() {
+    //     ask("Ваш пароль?", this.password, this.loginDone.bind(this, true), this.loginDone.bind(this, false) );
+    //   }
+    // };
+
+  </script>
   </body>
 </html>
