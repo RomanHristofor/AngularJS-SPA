@@ -6,4 +6,4 @@
 * Custom Directives
 * Services
 
-page view - http://romanhristofor.github.io/Shop-with-Angularjs/
+page view - http://romanhristofor.github.io/AngularJS-SPA
